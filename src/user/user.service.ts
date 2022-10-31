@@ -1,5 +1,5 @@
 import { HttpStatus, Injectable } from '@nestjs/common';
-import { IUser } from 'src/common/interface/user.interface';
+import { IUser } from 'src/common/interfaces/user.interface';
 import { UserDTO } from './dto/user.dto';
 import * as bcrypt from 'bcrypt';
 import { InjectModel } from '@nestjs/mongoose';
